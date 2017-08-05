@@ -1,0 +1,67 @@
+health = 10
+print("This is a test to see if you can survive the day. You will start with 10 heath and depending on your decisions you will either lose health or not.")
+ready = input("Are you ready? y/n")
+if ready == "y":
+  wake = input("You lay asleep in bed. It's only 4am. Wake up? y/n")
+  if wake == "y":
+    print("You get out of bed.")
+    health=8
+    food = input("Eat breakfast? y/n")
+    if food == "y":
+      print("You eat some toast.")
+    else:
+      print("You skip food.")
+    print("You look at the clock. It's 8am.")
+    work = input("Goto work? y/n")
+    if work == "y":
+        print("You get in the car and goto work.")
+        print("Your workmate buys you coffee.")
+        die = input("Say thanks? y/n")
+        if die == "n":
+          print("You didnt say thank you. They got offened and stabbed you to death after work.\nYou lose.")
+        else:
+          print("You say thanks and continue with work.")
+        aw = input("It's time to go home. Work overtime for some extra cash? y/n")
+        if aw == "y":
+          print("You stay overtime and get an extra $20")
+          print("You go home.")
+          print("You won.")
+        else:
+          print("You go back home and goto sleep")
+          print("You won.")
+    else:
+        print("You skip work and go back to sleep.")
+        print("You wake up. It's 10pm.")
+        sle = input("Goto sleep again for the night. y/n")
+        if sle == "y":
+          print("You go to sleep")
+          print("You win.")
+        else:
+          print("You stay awake and your energy drains.")
+          print("You lose.")
+  else:
+    print("you stay in bed")
+    health=10
+    print("You look at the clock. It's 8am.")
+    work2 = input("Goto work? y/n")
+    if work2 == "y":
+      print("You get in the car and goto work.")
+      print("Your workmate buys you coffee.")
+      die = input("Say thanks? y/n")
+      if die == "n":
+          print("You didnt say thank you. They got offened and stabbed you to death after work.\nYou lose.")
+      else:
+          print("You say thanks and continue with work.")
+          aw = input("It's time to go home. Work overtime for some extra cash? y/n")
+      if aw == "y":
+          print("You stay overtime and get an extra $20")
+          print("You go home.")
+          print("You won.")
+      else:
+          print("You go back home and goto sleep")
+          print("You won.")
+    else:
+      print("You skip breakfast despite being hungry.")
+      print("You die from starvation.\nYou lose.")
+else:
+  print("Please quit this program if you're not going to play..")
