@@ -1,2 +1,1 @@
-<h1>A walk through the bush..</h1
-<p>You find yourself in the wild. Answer yes or no to reveal your fate.</p>
+A moment in time, just one small, simplistic second; can change your life entirely. Memories so vivid, as if it was really true. Sometimes, those moments are entirely left beyond words. You can try to describe it, terrifying? maybe.  If only it was within reach, to feel that fraction of a second again. The light fading away, the heavy weight of the ocean above you. How your lungs slowly collapsed from pressure. Strangely calm, a moment of peace. Content. As if the world had frozen; for just for a moment in time, I felt at ease with the universe. Just one moment, that was enough...
