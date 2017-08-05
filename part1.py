@@ -1,3 +1,4 @@
+
 print("A Moment In Time")
 print("A moment in time, just one small, simplistic second; can change your life entirely. Memories so vivid, as if it was really true. Sometimes, those moments are entirely left beyond words. You can try to describe it, terrifying? maybe.  If only it was within reach, to feel that fraction of a second again. The light fading away, the heavy weight of the ocean above you. How your lungs slowly collapsed from pressure. Strangely calm, a moment of peace. Content. As if the world had frozen; for just for a moment in time, I felt at ease with the universe.\nJust one moment, that was enough...")
 a = input("\nYou feel the intense pressure of the water above you, how far? 100meteres? Maybe. You struggle to fight your way to the surface but it's no good. It was as if the water has you by the limbs. You should probably still try, right? y/n")
@@ -20,7 +21,13 @@ if b == "y":
     print("You decide to pass eating and open the back door to get some fresh air")
 else:
   print("You can't be bothered to move, so you stay in your bed. After getting a little bit of shut eye, you wake up. 8am. You get out of bed and go outside to get some fresh air.")
-  
+con = input("The sun had barly risen, not many people were awake. Just the early morning birds. do you feel content or sad?")
+if con == "content":
+  print("I felt.. content. Regardless,")
+else:
+  print("I felt.. sad. Regardless,")
+print("you went to the back yard to see your dog. Varda. She's a rottweiler hunterway cross. A puppy.\n")
+
   
   
   
