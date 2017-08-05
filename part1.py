@@ -5,3 +5,29 @@ if a == "y":
   print("You tug your hands away from the oceans steady grip, reaching towards the light, you legs still dangling uselessly behind you. The light grows storonger, until it's buring your eyes. Am I close yet? black.")
 else:
   print("You give up on trying. It's useless anyway. I could feel the pain as my organs were pushing inwards. It's incredible I have lasted this long. I feel the ocean floor as I floated down seeminglessly. My back numb, I couldnt feel the rocks and coral under me. I shut my eyes.. black.")
+b = input("\nRolling over, the bedsheets tangled as you tossed and turned. No matter how many times you tried to get comfortable, you never were. Get out of bed? y/n")
+if b == "y":
+  print("You grab the cover and toss them away. There's no point in staying in bed, it's uncomfortable and I can't get to sleep, I thought to myself. Getting up,I heard my stomach call my name.")
+  c = input("Eat? y/n")
+  if c == "y":
+    print("You walk over to the fridge in attempt to please your body. The last doughnut sat alone in it's box. Nothing else to eat.")
+    d = input("Take the doughnut? y/n")
+    if d =="y":
+      print("You pick up the old chocolate doughnut and take a bite, revealing a moldy inside. You spat out the chunk in your mouth and throw it away.")
+    else:
+      print("You chuck the old doughnut away. It's probably gone off a long time ago. You walk over the the back door to get some fresh air.")
+  else:
+    print("You decide to pass eating and open the back door to get some fresh air")
+else:
+  print("You can't be bothered to move, so you stay in your bed. After getting a little bit of shut eye, you wake up. 8am. You get out of bed and go outside to get some fresh air.")
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
